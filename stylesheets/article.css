@@ -35,7 +35,7 @@ body {
 .a-headline {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 5.5vh;
 }
 
 .a-dek {
@@ -64,4 +64,8 @@ body {
 .a-nav {
     font-family: 'Didact Gothic', sans-serif;
     font-size: x-large;
+}
+
+.img-container{
+    padding:4px;
 }
