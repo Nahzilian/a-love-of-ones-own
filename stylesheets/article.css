@@ -34,7 +34,7 @@ body {
 .a-headline {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .a-dek {
@@ -45,8 +45,8 @@ body {
 .a-byline {
     font-family: 'Fraunces', serif;
     font-weight: 600;
-    text-transform: uppercase;
-    font-size: xx-large;
+    text-transform: lowercase;
+    font-size: 25px;
 }
 
 .a-body {
@@ -57,4 +57,9 @@ body {
 .a-dropcap {
     font-family: 'Fraunces', serif;
     font-weight: 700;
+}
+
+.a-nav {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-large;
 }
