@@ -84,8 +84,23 @@ body {
     float:right;
 }
 
+.phone-view{
+    display: none;
+}
+
+.desktop-view{
+    display: block;
+}
 
 @media only screen and (max-width: 796px) {
+    .desktop-view{
+        display: none;
+    }
+
+    .phone-view{
+        display: block;
+    }
+
     .float-left , .float-right {
         float:none;
         display: block;
