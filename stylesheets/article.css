@@ -16,9 +16,10 @@
 
 body {
     /* background-image: url('./assets/background.png'); */
-    background-color: #F78DAE;
+    background-image: url('./assets/UNLINED\ Microsite\ Background.jpg');
     background-position: center;
     background-size: contain;
+    background-repeat: repeat;
     background-repeat: repeat;
     text-align: center;
 }
