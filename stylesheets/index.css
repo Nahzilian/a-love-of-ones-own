@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap');
+
+:root{
+    --pink: #F78DAE;
+    --purple: #a4036f;
+    --orange: #F96900;
+    --yellow: #FFCF33;
+    --green: #589b31;
+    --cyan: #c2fff9;
+    --headlines: 'Corben', cursive;
+}
+
+body {
+    background-image: url('./assets/background.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+}
