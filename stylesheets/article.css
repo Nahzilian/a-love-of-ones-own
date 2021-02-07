@@ -93,6 +93,7 @@ body::-webkit-scrollbar-button {
 .a-dek-m {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 25px;
+    margin: 0%;
 }
 
 .a-byline-m {
@@ -100,6 +101,7 @@ body::-webkit-scrollbar-button {
     font-weight: 600;
     text-transform: lowercase;
     font-size: 20px;
+    margin-top: 0%;
 }
 
 .a-nav {
@@ -120,14 +122,14 @@ body::-webkit-scrollbar-button {
 }
 
 .float-left{
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     float:left;
 }
 
 .float-right{
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     float:right;
 }
 /* For images only*/
