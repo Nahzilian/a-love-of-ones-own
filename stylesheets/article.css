@@ -103,6 +103,12 @@ body {
     height: 25%;
     float:right;
 }
+/* For images only*/
+.line-break{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media only screen and (max-width: 796px) {
     .float-left , .float-right {
