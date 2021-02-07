@@ -16,7 +16,7 @@
 
 body {
     /* background-image: url('./assets/background.png'); */
-    background-image: url('./assets/UNLINED\ Microsite\ Background.jpg');
+    background-image: url('./assets/background/UNLINED\ Microsite\ Background.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
@@ -28,26 +28,22 @@ body {
     background-color: #FFCF33;
 }
 
-.a-featured {
-    background-color: #a4036f;
-}
-
-.a-headline {
+.a-headline-d {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 5vh;
+    font-size: 55px;
 }
 
-.a-dek {
+.a-dek-d {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 3vh;
+    font-size: 35px;
 }
 
-.a-byline {
+.a-byline-d {
     font-family: 'Fraunces', serif;
     font-weight: 600;
     text-transform: lowercase;
-    font-size: 2.5vh;
+    font-size: 25px;
 }
 
 .a-body {
@@ -56,9 +52,27 @@ body {
     text-align: left;
 }
 
-.a-dropcap {
+.a-dropcap-d {
     font-family: 'Fraunces', serif;
     font-weight: 700;
+}
+
+.a-headline-m {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.a-dek-m {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 25px;
+}
+
+.a-byline-m {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 
 .a-nav {
@@ -68,7 +82,46 @@ body {
     text-decoration: none;
 }
 
-.img-container{
+.a-img-d{
+    width: 100%;
+    height:auto;
+}
+
+.a-img-m{
+    width: 100%;
+    height:auto;
+}
+
+.float-left{
+    width: 25%;
+    height: 25%;
+    float:left;
+}
+
+.float-right{
+    width: 25%;
+    height: 25%;
+    float:right;
+}
+
+@media only screen and (max-width: 796px) {
+    .float-left , .float-right {
+        float:none;
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* .img-container{
     padding:4px;
 }
 
@@ -118,4 +171,4 @@ body {
         height: 100%;
         margin: 2px;
     }
-  }
+  } */
