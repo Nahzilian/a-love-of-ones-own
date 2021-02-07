@@ -35,19 +35,19 @@ body {
 .a-headline {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 5.5vh;
+    font-size: 5vh;
 }
 
 .a-dek {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: xx-large;
+    font-size: 3vh;
 }
 
 .a-byline {
     font-family: 'Fraunces', serif;
     font-weight: 600;
     text-transform: lowercase;
-    font-size: 25px;
+    font-size: 2.5vh;
 }
 
 .a-body {
@@ -93,6 +93,16 @@ body {
 }
 
 @media only screen and (max-width: 796px) {
+    .a-headline {
+        font-size: 5vw;
+    }
+    .a-dek {
+        font-size: 3vw;
+    }
+    
+    .a-byline {
+        font-size: 2.5vw;
+    }
     .desktop-view{
         display: none;
     }
