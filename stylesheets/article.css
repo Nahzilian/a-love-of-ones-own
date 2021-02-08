@@ -122,14 +122,14 @@ body::-webkit-scrollbar-button {
 }
 
 .float-left{
-    width: 50%;
-    height: 50%;
+    width: 25vw;
+    height: 25vw;
     float:left;
 }
 
 .float-right{
-    width: 50%;
-    height: 50%;
+    width: 25vw;
+    height: 25vw;
     float:right;
 }
 /* For images only*/
