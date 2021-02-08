@@ -11,9 +11,10 @@
 }
 
 body {
-    background-image: url('./assets/background.png');
+    background-image: url('./assets/background/UNLINED\ Microsite\ Background.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: repeat;
     background-repeat: repeat;
     text-align: center;
     overflow: overlay;
@@ -43,4 +44,27 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-button {
     display:none;
     margin-top: 64px;
+}
+
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+
+.headline {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:rgb(94, 94, 94);
 }
