@@ -11,11 +11,11 @@
 }
 
 body {
-    background-image: url('./assets/background/UNLINED\ Microsite\ Background.jpg');
+    background-image: url('./assets/background/Final\ Microsite\ Background.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-repeat: repeat;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     text-align: center;
     overflow: overlay;
 }
