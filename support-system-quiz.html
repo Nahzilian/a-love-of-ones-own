@@ -128,26 +128,26 @@
                 class="line-break resize-img">
         </p>
 
-        <form class="questions">
+        <form id="questions" onsubmit="evaluateForm(event)">
             <p>1. You and your friend took the same online elective this semester. When the professor thanks you for
                 always
                 participating during the last class, your friend:
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question1" value="a">
+                    <input class="with-gap" type="radio" name="question1" value="-1">
                     <span>a. Texts you: “LOL, this prof is so cheesy!”</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question1" value="b">
+                    <input class="with-gap" type="radio" name="question1" value="5">
                     <span>b. Reacts with the hands clapping emoji on Zoom</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question1" value="c">
+                    <input class="with-gap" type="radio" name="question1" value="2">
                     <span>c. Doesn’t mention it</span>
                 </label><br>
             </p>
@@ -170,20 +170,20 @@
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question2" value="a">
+                    <input class="with-gap" type="radio" name="question2" value="-1">
                     <span>a. Asks if there’s any way they can still call, since they have something they really wanted
                         to tell you</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question2" value="b">
+                    <input class="with-gap" type="radio" name="question2" value="2">
                     <span>b. Says “Okay, but please don’t miss the next one!”</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question2" value="c">
+                    <input class="with-gap" type="radio" name="question2" value="5">
                     <span>c. Reassures you that it’s alright and asks if there’s another time coming up that works for
                         both of you, so
                         they can still fill you in
@@ -206,13 +206,13 @@
             <p>3. You’ve had a bad day, and you say something mean to your friend without meaning to. They:</p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question3" value="a">
+                    <input class="with-gap" type="radio" name="question3" value="5">
                     <span>a. Ignore your texts for a day and then message you asking if there’s a time you both can talk</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question3" value="b">
+                    <input class="with-gap" type="radio" name="question3" value="2">
                     <span>b. Send you a long paragraph explaining their feelings, then tell you that they need space and
                         they’ll text you
                         when they’re ready to move on</span>
@@ -220,7 +220,7 @@
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question3" value="c">
+                    <input class="with-gap" type="radio" name="question3" value="-1">
                     <span>c. Ignore your text but post quotes about “eliminating toxic people from their life” on their
                         Instagram story
                     </span>
@@ -246,7 +246,7 @@
                 see the text you feel:</p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question4" value="a">
+                    <input class="with-gap" type="radio" name="question4" value="2">
                     <span>a. Indifferent. It would be great to catch up, but your (well-meaning) friend group chose the
                         activity while
                         you were away, and the plan is to do something you really don’t like</span>
@@ -254,7 +254,7 @@
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question4" value="b">
+                    <input class="with-gap" type="radio" name="question4" value="-1">
                     <span>b. Already exhausted. They want to spend four hours together, but you have a lot of work to
                         do. You know that
                         if you try to leave early or say you can’t make it, they’re going to be annoyed, so you’re
@@ -264,7 +264,7 @@
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question4" value="c">
+                    <input class="with-gap" type="radio" name="question4" value="5">
                     <span>c. Excited to see them but a little nervous because you have an assignment due! You look at
                         your schedule and
                         figure out what you need to get done to be able to make the plans, even if you can only stay for
@@ -291,21 +291,21 @@
                 literature class and offers to look over your draft. You:</p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question5" value="a">
+                    <input class="with-gap" type="radio" name="question5" value="-1">
                     <span>a. Tell them you’re fine and confident that your work is good enough to get an ‘A’ on its own. Do they really
                         think you can’t write an essay?</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question5" value="b">
+                    <input class="with-gap" type="radio" name="question5" value="2">
                     <span>b. Agree and let them look it over, but only accept a couple of the changes so you don’t hurt their feelings,
                         decline the rest and submit the essay almost exactly as you wrote it</span>
                 </label><br>
             </p>
             <p>
                 <label>
-                    <input class="with-gap" type="radio" name="question5" value="c">
+                    <input class="with-gap" type="radio" name="question5" value="5">
                     <span>c. Thank them for offering and give them some key things to look over. When you get the draft back, you accept
                         the changes that make sense to you, and ask your friend to clarify the others so you can decide whether to
                         accept them or not
@@ -328,7 +328,7 @@
 
         <p class="a-body">
             <br><br>
-            Scores:<span id="score"></span>
+            Scores: <span id="score"></span>
             <br><br>
             -5 to 7 points: This friendship might be cool but probably shouldn’t be your main source of support
             <br><br>
@@ -414,5 +414,5 @@
 
 <!-- Materialize - Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+<script src="./scripts/index.js"></script>
 </html>

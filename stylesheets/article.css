@@ -156,7 +156,7 @@ body::-webkit-scrollbar-button {
 }
 
 
-.questions{
+#questions{
 text-align: left;
 }
 [type="radio"]:checked + label::after, [type="radio"].with-gap:checked + label::after {
