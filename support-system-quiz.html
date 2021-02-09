@@ -10,9 +10,10 @@
     <meta name="twitter:site" content="@The Eyeopener" />
     <meta name="twitter:title" content="Find your #FakeFriend" />
     <meta name="twitter:description" content="
-    
+    Research shows that good friendships can impact your health and even the length of your life. This 2009 study found that “robust” social and emotional relationships can protect your health. For instance, people who self-reported progress with diseases like diabetes tended to report better physical feelings when they had good relationships with family and friends. Almost one year into a global panoramic, this matters more than ever. You’re already spending so much mental energy just trying to survive; you don’t have much left to put into relationships that don’t empower you. 
     " />
-    <meta name="twitter:image:src" content="https://aloveofonesown.theeyeopener.com/stylesheets/assets/" />
+    <meta name="twitter:image:src"
+        content="https://aloveofonesown.theeyeopener.com/stylesheets/assets/support-system-quiz/good-support-system-feature.png" />
 
     <!-- Page Title -->
     <title>Find your #FakeFriend</title>
@@ -30,11 +31,6 @@
 
     <!-- 
         Document Checklist
-        
-        - Twitter Descrption - first paragraph of article
-        - Twitter Image - same as image link
-        - Page Title - article headline
-        - Image Link
 
         - Linebreaks - Use class = float-right or float-left
         - Feature - 3 relevant articles 
@@ -127,8 +123,8 @@
             <img src="./stylesheets/assets/support-system-quiz/FriendshipQuiz_1_AbeerKhan_Feb2021.png"
                 class="line-break resize-img">
         </p>
-
         <form id="questions" onsubmit="evaluateForm(event)">
+            <h3 id="score-wrapper">Scores: <span id="score"></span> / 25</h3>
             <p>1. You and your friend took the same online elective this semester. When the professor thanks you for
                 always
                 participating during the last class, your friend:
@@ -152,14 +148,17 @@
                 </label><br>
             </p>
 
-
-            <!-- #1 Explanations:
-            A: (-1 point) Even if you do think it's cheesy that the prof called you out, a friend shouldn't make fun of
-            your accomplishments, no matter how small.
-            B: (+5 points) Your friend is openly supporting you, without making the moment about themselves or doing
-            anything to embarrass you.
-            C: (+2 points) The friend doesn't tear you down, but doesn't support you either. They probably don't think
-            it's a big deal. -->
+            <div class="explanations">
+                #1 Explanations:<br>
+                A: (-1 point) Even if you do think it's cheesy that the prof called you out, a friend shouldn't make fun
+                of
+                your accomplishments, no matter how small.<br><br>
+                B: (+5 points) Your friend is openly supporting you, without making the moment about themselves or doing
+                anything to embarrass you.<br><br>
+                C: (+2 points) The friend doesn't tear you down, but doesn't support you either. They probably don't
+                think
+                it's a big deal.<br><br>
+            </div>
 
             <img src="./stylesheets/assets/support-system-quiz/FriendshipQuiz_4_AbeerKhan_Feb2021.png"
                 class="line-break resize-img">
@@ -191,14 +190,16 @@
                 </label><br>
             </p>
 
-
-
-            <!-- #2 Explanations:
-            A: (-1 point) This person isn’t acknowledging your needs as a friend and is only acknowledging their own.
-            B: (+2 points) The friend is respecting your need for space while asserting their own needs, but is still
-            putting some pressure on you.
-            C: (+5 points) The friend is acknowledging your need for space while making it clear what they need in a
-            friendship. Ultimately, they're putting the ball in your court without any pressure. -->
+            <div class="explanations">
+                #2 Explanations:<br>
+                A: (-1 point) This person isn’t acknowledging your needs as a friend and is only acknowledging their
+                own.<br><br>
+                B: (+2 points) The friend is respecting your need for space while asserting their own needs, but is
+                still
+                putting some pressure on you.<br><br>
+                C: (+5 points) The friend is acknowledging your need for space while making it clear what they need in a
+                friendship. Ultimately, they're putting the ball in your court without any pressure.<br><br>
+            </div>
 
             <img src="./stylesheets/assets/support-system-quiz/FriendshipQuiz_2_AbeerKhan_Feb2021.png"
                 class="line-break resize-img">
@@ -207,7 +208,8 @@
             <p>
                 <label>
                     <input class="with-gap" type="radio" name="question3" value="5">
-                    <span>a. Ignore your texts for a day and then message you asking if there’s a time you both can talk</span>
+                    <span>a. Ignore your texts for a day and then message you asking if there’s a time you both can
+                        talk</span>
                 </label><br>
             </p>
             <p>
@@ -228,15 +230,20 @@
             </p>
 
 
-            <!-- #3 Explanations:
-            A: (+5 points) Even though they ignored you at first, when you hurt someone, they're entitled to take time
-            to process that pain, which is out of your control. When they were ready, they didn't just unload their
-            emotions on you, but instead chose to arrange a time where you could both explain your perspectives.
-            B: (+2 points) They made it clear how they are feeling in a way that they're comfortable with and have been
-            honest about needing space to process the hurt. However, they didn't give you any opportunity to work as a
-            team to solve this problem.
-            C: (-1 point) Not only did they not tell you how they're feeling, but they’re also trying to publicly
-            humiliate you and are seeking outside attention for this situation. -->
+            <div class="explanations">
+                #3 Explanations:<br>
+                A: (+5 points) Even though they ignored you at first, when you hurt someone, they're entitled to take
+                time
+                to process that pain, which is out of your control. When they were ready, they didn't just unload their
+                emotions on you, but instead chose to arrange a time where you could both explain your
+                perspectives.<br><br>
+                B: (+2 points) They made it clear how they are feeling in a way that they're comfortable with and have
+                been
+                honest about needing space to process the hurt. However, they didn't give you any opportunity to work as
+                a team to solve this problem. <br><br>
+                C: (-1 point) Not only did they not tell you how they're feeling, but they’re also trying to publicly
+                humiliate you and are seeking outside attention for this situation. <br><br>
+            </div>
 
             <img src="./stylesheets/assets/support-system-quiz/FriendshipQuiz_5_AbeerKhan_Feb2021.png"
                 class="line-break resize-img">
@@ -275,14 +282,20 @@
                 </label><br>
             </p>
 
-            <!-- #4 Explanations:
-            A: (+2 points) You don't hate hanging out with these people, but you might not have much in common in terms
-            of "friendship chemistry," which is probably why they picked an activity you don't like, even
-            unintentionally.
-            B: (-1 point) You can think of a million things you'd rather do than hang out with these people and try to
-            do it as little as possible. If you're already drained before going, you don't like these friends.
-            C: (+5 points) Without giving up too much of your own life (by checking what work you can get done and how
-            much time you can spend with them), you still want to see them enough to make the effort. -->
+            <div class="explanations">
+                #4 Explanations:<br>
+                A: (+2 points) You don't hate hanging out with these people, but you might not have much in common in
+                terms
+                of "friendship chemistry," which is probably why they picked an activity you don't like, even
+                unintentionally.<br><br>
+                B: (-1 point) You can think of a million things you'd rather do than hang out with these people and try
+                to
+                do it as little as possible. If you're already drained before going, you don't like these
+                friends.<br><br>
+                C: (+5 points) Without giving up too much of your own life (by checking what work you can get done and
+                how
+                much time you can spend with them), you still want to see them enough to make the effort.<br><br>
+            </div>
 
             <img src="./stylesheets/assets/support-system-quiz/FriendshipQuiz_3_AbeerKhan_Feb2021.png"
                 class="line-break resize-img">
@@ -292,43 +305,60 @@
             <p>
                 <label>
                     <input class="with-gap" type="radio" name="question5" value="-1">
-                    <span>a. Tell them you’re fine and confident that your work is good enough to get an ‘A’ on its own. Do they really
+                    <span>a. Tell them you’re fine and confident that your work is good enough to get an ‘A’ on its own.
+                        Do they really
                         think you can’t write an essay?</span>
                 </label><br>
             </p>
             <p>
                 <label>
                     <input class="with-gap" type="radio" name="question5" value="2">
-                    <span>b. Agree and let them look it over, but only accept a couple of the changes so you don’t hurt their feelings,
+                    <span>b. Agree and let them look it over, but only accept a couple of the changes so you don’t hurt
+                        their feelings,
                         decline the rest and submit the essay almost exactly as you wrote it</span>
                 </label><br>
             </p>
             <p>
                 <label>
                     <input class="with-gap" type="radio" name="question5" value="5">
-                    <span>c. Thank them for offering and give them some key things to look over. When you get the draft back, you accept
-                        the changes that make sense to you, and ask your friend to clarify the others so you can decide whether to
+                    <span>c. Thank them for offering and give them some key things to look over. When you get the draft
+                        back, you accept
+                        the changes that make sense to you, and ask your friend to clarify the others so you can decide
+                        whether to
                         accept them or not
                     </span>
                 </label><br>
             </p>
-            
-            <!-- #5 Explanations:
-            A: (-1 point) Part of having a good friendship is recognizing good intentions and being able to accept their
-            support. If a friend's support is offered as a way of putting you down, or if you feel that you would be
-            judged for accepting it, then they probably aren't a good friend.
-            B: (+2 points) Though you may have tried to preserve their feelings, you wasted their time by pretending to
-            accept support without recognizing the effort they put in to offer it to you. You may not be compatible with
-            this friend.
-            C: (+5 points) You were able to see that their offer comes out of love and respect for you, not as an insult
-            to your intelligence. Together, you communicate on the best course of action going forward. -->
-            <button class="waves-effect purple lighten-4 btn-small"
-            style="color: black;" type="submit">How did I do?</button>
+            <div class="explanations">
+                #5 Explanations:<br>
+                A: (-1 point) Part of having a good friendship is recognizing good intentions and being able to accept
+                their
+                support. If a friend's support is offered as a way of putting you down, or if you feel that you would be
+                judged for accepting it, then they probably aren't a good friend.<br><br>
+                B: (+2 points) Though you may have tried to preserve their feelings, you wasted their time by pretending
+                to
+                accept support without recognizing the effort they put in to offer it to you. You may not be compatible
+                with
+                this friend.<br><br>
+                C: (+5 points) You were able to see that their offer comes out of love and respect for you, not as an
+                insult
+                to your intelligence. Together, you communicate on the best course of action going forward.<br><br>
+            </div>
+            <br>
+            <div class="btn-wrapper" id="eval">
+                <button class="waves-effect purple lighten-4 btn-small" style="color: black;" type="submit">How did I
+                    do?</button>
+            </div>
+
+            <div class="btn-wrapper" id="retry">
+                <a href="./support-system-quiz.html" class="waves-effect purple lighten-4 btn-small" style="color: black;" type="submit">Try
+                    again?
+                </a>
+            </div>
+        </form>
         </form>
 
         <p class="a-body">
-            <br><br>
-            Scores: <span id="score"></span>
             <br><br>
             -5 to 7 points: This friendship might be cool but probably shouldn’t be your main source of support
             <br><br>
@@ -415,4 +445,5 @@
 <!-- Materialize - Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="./scripts/index.js"></script>
+
 </html>
