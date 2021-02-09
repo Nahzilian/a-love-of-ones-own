@@ -138,6 +138,12 @@ body::-webkit-scrollbar-button {
     margin-left: auto;
     margin-right: auto;
 }
+
+.resize-img{
+    width: 30%;
+    height: 30%;
+}
+
 /* For text only */
 .line-break-text{
     display: block;
@@ -149,6 +155,21 @@ body::-webkit-scrollbar-button {
     margin: 10px;
 }
 
+
+.questions{
+text-align: left;
+}
+[type="radio"]:checked + label::after, [type="radio"].with-gap:checked + label::after {
+    background-color:black !important;
+}
+[type="radio"]:checked + label::after, [type="radio"].with-gap:checked + label::before, [type="radio"].with-gap:checked + label::after {
+    border: 2px solid black !important;
+}
+
+label{
+    color:black ;
+}
+
 @media only screen and (max-width: 796px) {
     .float-left , .float-right {
         float:none;
@@ -158,6 +179,10 @@ body::-webkit-scrollbar-button {
         margin: 2px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .resize-img{
+        width: 100%;
+        height: 100%;
     }
   }
 
