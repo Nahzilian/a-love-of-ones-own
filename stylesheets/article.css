@@ -123,15 +123,40 @@ body::-webkit-scrollbar-button {
 }
 
 .float-left{
-    width: 25vw;
-    height: 25vw;
+    width: 35%;
+    height: 35%;
     float:left;
+    padding: 20px;
 }
 
 .float-right{
-    width: 25vw;
-    height: 25vw;
+    width: 35%;
+    height: 35%;
     float:right;
+    padding: 20px;
+}
+
+.pull-left{
+    width: 50%;
+    height: 50%;
+    float:left;
+    padding: 20px;
+}
+
+.pull-right{
+    width: 50%;
+    height: 50%;
+    float:right;
+    padding: 20px;
+}
+
+.float-center{
+    width: 25%;
+    height: 25%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* For images only*/
 .line-break{
@@ -199,7 +224,7 @@ label{
 }
 
 @media only screen and (max-width: 796px) {
-    .float-left , .float-right {
+    .float-left , .float-right , .float-center{
         float:none;
         display: block;
         width: 50%;
@@ -211,6 +236,15 @@ label{
     .resize-img{
         width: 100%;
         height: 100%;
+    }
+    .pull-left , .pull-right {
+        float:none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 2px;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
 
