@@ -83,3 +83,25 @@ a:hover{
     width: 75%;
     height: auto;
 }
+
+.phone-view{
+    display: none;
+}
+
+.microsite{
+    display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .phone-view{display: block;}
+    .microsite{display: none;}
+    .homepage-title img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        width: auto;
+        height: 100%;
+    }
+  }
