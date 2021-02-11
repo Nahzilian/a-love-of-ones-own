@@ -1,7 +1,7 @@
 function evaluateForm(e) {
     e.preventDefault();
     window.scrollTo({  top: 1600 , left: 500 , behavior: "smooth" });
-    console.log(pos)
+    // console.log(pos)
     var q1 = document.getElementsByName('question1');
     var q2 = document.getElementsByName('question2');
     var q3 = document.getElementsByName('question3');
